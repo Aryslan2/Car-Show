@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D0E1F9;
+    text-decoration: none;
+}
+
+.logo {
+    width: 6.5rem;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    background-color: #1E1F26;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+    font-size: 1.3rem;
+}
+
+.nav-link li a:hover {
+    color: #838d9c;
+}
+
+.logo-title {
+    display: flex;
+}
+
+.logo-title h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: 'Dancing Script', cursive;
+    color: #939ead;
+    margin-left: 0.3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    transition: 1s all;
+}
+
+.logout:hover {
+    color: #7a8491;
+    background-color: rgb(122, 2, 2);
+}
+
+.user-info {
+    color: #D0E1F9;
+    margin-left: 10rem;
+} 
+
+.username {
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: #3a3d57;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 30rem;
+    height: 8rem;
+    background-color: #D0E1F9;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.3rem;
+}
+
+.delete-btn {
+    margin-top: 0.3rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(182, 9, 9);
+    color: #D0E1F9;
+    font-size: 1.3rem;
+    transition: 0.3s all;
+}
+
+.delete-btn:hover {
+    background-color: rgb(75, 1, 1);
+    color: #838e9e;
+}
+
+.btn_del {
+    width: 8rem;
+    height: 3rem;
+}

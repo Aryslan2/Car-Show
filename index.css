@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #D0E1F9;
+    text-decoration: none;
+}
+
+.logo {
+    width: 6.5rem;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    background-color: #1E1F26;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+    font-size: 1.3rem;
+}
+
+.nav-link li a:hover {
+    color: #838d9c;
+}
+
+.logo-title {
+    display: flex;
+}
+
+.logo-title h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: 'Dancing Script', cursive;
+    color: #939ead;
+    margin-left: 0.3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    transition: 1s all;
+}
+
+.logout:hover {
+    color: #7a8491;
+    background-color: rgb(122, 2, 2);
+}
+
+
+
+.user-info {
+    color: #D0E1F9;
+    margin-left: 10rem;
+} 
+
+.username {
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: #3a3d57;
+}
+
+.car-img {
+    width: 60rem;
+    height: 40rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    margin-top: 6rem;
+    width: 60rem;
+    height: 52rem;
+    background-color: #D0E1F9;
+}
+
+.info {
+    color: #1E1F26;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-btn {
+    margin-top: 0.3rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(6, 167, 6);
+    color: #D0E1F9;
+    font-size: 2rem;
+    transition: 0.3s all;
+}
+
+.add-btn:hover {
+    background-color: rgb(3, 77, 3);;
+    color: #838e9e;
+}

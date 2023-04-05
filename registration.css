@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    display: flex;
+    background-color: black;
+}
+
+.form {
+    background-color: #1E1F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 69rem;
+    height: 961px;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.form_image {
+    background-image: url("./car.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 53.1rem;
+    height: 961px;
+}
+
+.input_form, 
+.submit_btn_form {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.title {
+    color: #D0E1F9;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-weight:200;
+    font-size: 4rem;
+}
+
+.group_fr {
+    color: #D0E1F9;
+    position: relative;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.input_form {
+    color: #D0E1F9;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 0 0 0.4rem 0;
+    border: none;
+    border-bottom: 0.2rem solid #D0E1F9;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.chbox {
+  width: 1rem;
+  height: 1rem;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    color: #4D648D;
+}
+
+.sign-up:hover {
+    color: #283655;
+    text-decoration:underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.submit_btn_form {
+    color: #D0E1F9;
+    size: 3rem;
+    background-color: #4D648D;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: .5s all;
+    border: none;
+}
+
+.submit_btn_form:hover {
+    color: #1E1F26;
+    background-color: #283655;
+    
+}
+
+.btnsbmt {
+    display: flex;
+    justify-content: center;
+}
+   
